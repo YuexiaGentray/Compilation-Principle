@@ -1,0 +1,13 @@
+Var i,j:int eger;Sum:real flag:bool;
+Begin
+i:=0;
+J1*:=50;
+Sum:=1;
+FLAG:=1;
+While(i<J1)and(FLAG) do
+   begin
+          I:=I+1;Sum:=sum*I;
+          If(sum>=65535/(I+1))then
+             Flag:=0;
+       End;
+End;
